@@ -1,9 +1,10 @@
+#Task 1 - Initialization
 print("Welcome to my Python Program!! :D")
 
 #Task 2 - Input
 hours = input("How many hours did you sleep last night? ")
 
-#Task 3 - Calculation
+#Task 3 + 5 - Calculation + Error Handling
 try:
     hours = float(hours)
 except ValueError:
