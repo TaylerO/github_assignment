@@ -4,7 +4,11 @@ print("Welcome to my Python Program!! :D")
 hours = input("How many hours did you sleep last night? ")
 
 #Task 3 - Calculation
-hours = float(hours)
+try:
+    hours = float(hours)
+except ValueError:
+    print("Please provide a valid number!")
+    exit()
 monthly_sleep = hours * 30
 
 #Task4 - Display
