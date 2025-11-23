@@ -1,7 +1,7 @@
 #Sleep Calculation Assistance
 
 #Description
-#This program focues on addressing the number of hours each #user sleeps per month. This information can be used to make #more educated decisions about sleep schedule and amount for a #healthier future
+This program focues on addressing the number of hours each user sleeps per month. This information can be used to make more educated decisions about sleep schedule and amount for a healthier future
 
 #How to Run
 python app.py
